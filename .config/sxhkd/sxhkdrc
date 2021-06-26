@@ -120,11 +120,6 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-# volume control
-super + alt + {bracketleft,bracketright}
-	amixer set Master 5%{-,+}
-super + alt + backslash
-	amixer set Master toggle
 # lockscreen
 super + x
 	betterlockscreen -l dimblur
