@@ -21,3 +21,4 @@ yay/
 .config/Thunar/
 .config/xfce4/
 mimeapps.list
+.Xauthority
