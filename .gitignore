@@ -6,7 +6,6 @@
 .cache/ 
 .bash_history 
 .bash_logout
-.bash_profile
 .local/
 .pki/
 yay/
