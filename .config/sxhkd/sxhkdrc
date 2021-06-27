@@ -141,3 +141,8 @@ super + x
 # browser
 super + alt + b
 	brave
+	
+# scrot 
+super + alt +s
+	scrot
+
