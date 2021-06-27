@@ -5,6 +5,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+EDITOR=vim
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
@@ -23,4 +25,5 @@ path=("$HOME/.local/bin" "$path[@]")
 export PATH
 
 neofetch
+
 alias config='/usr/bin/git --git-dir=/home/br4nch/.cfg/ --work-tree=/home/br4nch'
