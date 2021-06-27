@@ -10,6 +10,12 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+promptinit
+
+# This will set the default prompt to the walters theme
+prompt walters
+
+
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
