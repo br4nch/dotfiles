@@ -31,4 +31,4 @@ neofetch
 
 alias config='/usr/bin/git --git-dir=/home/br4nch/.cfg/ --work-tree=/home/br4nch'
 
-/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
