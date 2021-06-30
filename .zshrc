@@ -25,9 +25,9 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-#typeset -U PATH path
-#path=("$HOME/.local/bin" "$path[@]")
-#export PATH
+typeset -U PATH path
+path=("$HOME/.local/bin" "$path[@]")
+export PATH
 
 neofetch
 
