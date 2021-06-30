@@ -15,8 +15,6 @@ SAVEHIST=1000
 # The following lines were added by compinstall
 autoload -Uz compinit
 compinit
-# Completion for kitty
-kitty + complete setup zsh | source /dev/stdin
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
