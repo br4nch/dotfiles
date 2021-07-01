@@ -40,54 +40,53 @@ scrollback_lines = 10000
 # "off", "left" or "right"
 #scrollbar = off
 
-
 [colors]
-# Base16 Harmonic16 Dark
-# Author: Jannik Siebert (https://github.com/janniks)
+# Base16 Gruvbox dark, pale
+# Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 
-foreground          = #cbd6e2
-foreground_bold     = #cbd6e2
-cursor              = #cbd6e2
-cursor_foreground   = #0b1c2c
-background          = #0b1c2c
+foreground          = #dab997
+foreground_bold     = #dab997
+cursor              = #dab997
+cursor_foreground   = #262626
+background          = #262626
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #0b1c2c
-color8  = #627e99
-color7  = #cbd6e2
-color15 = #f7f9fb
+color0  = #262626
+color8  = #8a8a8a
+color7  = #dab997
+color15 = #ebdbb2
 
 # Red
-color1  = #bf8b56
-color9  = #bf8b56
+color1  = #d75f5f
+color9  = #d75f5f
 
 # Green
-color2  = #56bf8b
-color10 = #56bf8b
+color2  = #afaf00
+color10 = #afaf00
 
 # Yellow
-color3  = #8bbf56
-color11 = #8bbf56
+color3  = #ffaf00
+color11 = #ffaf00
 
 # Blue
-color4  = #8b56bf
-color12 = #8b56bf
+color4  = #83adad
+color12 = #83adad
 
 # Purple
-color5  = #bf568b
-color13 = #bf568b
+color5  = #d485ad
+color13 = #d485ad
 
 # Teal
-color6  = #568bbf
-color14 = #568bbf
+color6  = #85ad85
+color14 = #85ad85
 
 # Extra colors
-color16 = #bfbf56
-color17 = #bf5656
-color18 = #223b54
-color19 = #405c79
-color20 = #aabcce
-color21 = #e5ebf1
+color16 = #ff8700
+color17 = #d65d0e
+color18 = #3a3a3a
+color19 = #4e4e4e
+color20 = #949494
+color21 = #d5c4a1
 
