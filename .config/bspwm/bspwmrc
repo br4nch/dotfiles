@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 /usr/bin/dunst &
-$HOME/.config/polybar/launch.sh
+$HOME/.config/polybar/launch.sh --blocks
 
 bspc monitor -d I II III IV V
 
