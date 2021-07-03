@@ -1,14 +1,14 @@
 [options]
-#allow_bold = true
+allow_bold = true
 #audible_bell = false
 #bold_is_bright = true
 #cell_height_scale = 1.0
 #cell_width_scale = 1.0
-#clickable_url = true
-#dynamic_title = true
-font = Monospace 12
+clickable_url = true
+dynamic_title = true
+font =  FuraCode Nerd Font 12
 #fullscreen = true
-icon_name = terminal
+#icon_name = terminal
 #mouse_autohide = false
 #scroll_on_output = false
 #scroll_on_keystroke = true
@@ -20,13 +20,13 @@ scrollback_lines = 10000
 #hyperlinks = false
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
-#browser = xdg-open
+browser = xdg-open
 
 # "system", "on" or "off"
-#cursor_blink = system
+cursor_blink = system
 
 # "block", "underline" or "ibeam"
-#cursor_shape = block
+cursor_shape = block
 
 # Hide links that are no longer valid in url select overlay mode
 #filter_unmatched_urls = true
@@ -40,54 +40,25 @@ scrollback_lines = 10000
 # "off", "left" or "right"
 #scrollbar = off
 
+# ====================================
 [colors]
-# Base16 Gruvbox dark, pale
-# Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 
-foreground          = #dab997
-foreground_bold     = #dab997
-cursor              = #dab997
-cursor_foreground   = #262626
-#background          = #262626
-background = rgba(26, 26, 26, 0.8)
+background= #1d2021
+foreground= #ebdbb2
 
-# 16 color space
-
-# Black, Gray, Silver, White
-color0  = #262626
-color8  = #8a8a8a
-color7  = #dab997
-color15 = #ebdbb2
-
-# Red
-color1  = #d75f5f
-color9  = #d75f5f
-
-# Green
-color2  = #afaf00
-color10 = #afaf00
-
-# Yellow
-color3  = #ffaf00
-color11 = #ffaf00
-
-# Blue
-color4  = #83adad
-color12 = #83adad
-
-# Purple
-color5  = #d485ad
-color13 = #d485ad
-
-# Teal
-color6  = #85ad85
-color14 = #85ad85
-
-# Extra colors
-color16 = #ff8700
-color17 = #d65d0e
-color18 = #3a3a3a
-color19 = #4e4e4e
-color20 = #949494
-color21 = #d5c4a1
-
+color0=  #282828
+color8=  #928374
+color1=  #cc241d
+color9=  #fb4934
+color2=  #98971a
+color10= #b8bb26
+color3=  #d79921
+color11= #fabd2f
+color4=  #458588
+color12= #83a598
+color5=  #b16286
+color13= #d3869b
+color6=  #689d6a
+color14= #8ec07c
+color7=  #a89984
+color15= #ebdbb2
